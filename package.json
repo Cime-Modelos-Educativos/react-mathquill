@@ -1,11 +1,11 @@
 {
-  "name": "react-mathquill",
-  "version": "1.0.3",
-  "description": "React component wrapper for Mathquill",
+  "name": "@cime/react-mathquill",
+  "version": "1.0.4",
+  "description": "Fork of react-mathquill with React 19 support, maintained by CIME",
   "main": "index.js",
   "typings": "index.d.ts",
-  "repository": "git@github.com:viktorstrate/react-mathquill.git",
-  "author": "viktorstrate <viktorstrate@gmail.com>",
+  "repository": "https://github.com/Cime-Modelos-Educativos/react-mathquill",
+  "author": "CIME <soporte@cime.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -20,7 +20,8 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": ">=18.2.0 <21.0.0",
+    "react-dom": ">=18.2.0 <21.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
